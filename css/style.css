@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Karantina:wght@300&family=Roboto+Condensed:wght@400;700&family=Zen+Dots&display=swap');
+
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+section{
+  background-color: #000;
+}
+
+.design-name{
+  border:1px solid #f4f4f4;
+  padding:5px;
+  border-right:10px solid white;
+  border-left:10px solid white;
+  border-radius:10px;
+  background-color:rgba(178, 34, 34, 0.7);
+}

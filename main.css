@@ -1,0 +1,1127 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300&family=Roboto+Condensed:wght@400;700&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --color-prime: #ff6347;
+    --color-second: #ff6e4a;
+    --dark-color: #00001e;
+    --light-color: #f4f4f4;
+    --color-third: #222;
+    --color-fourth: #111;
+    --color-fifth: #A38308;
+    --color-sixth: #fe6f5e;
+  }
+
+.expand .card-abt ul li{
+    font-size: 1rem;
+}
+
+.howto ul li{
+    list-style-type: lower-roman;
+}
+
+.howto ul li a{
+    color:#ff6e4a;
+}
+
+.spacebot-1{
+    padding-bottom: 10px;
+}
+
+.spacetop-1{
+    padding-top: 10px;
+}
+
+.py-5{
+    padding: 60px 0;
+}
+
+.gods{
+    background-color:black;
+}
+
+.gods img{
+    border-radius: 50%;
+}
+
+.buy-btn{
+    background-color:none;
+    border:3px solid var(--color-prime);
+    border-radius:10px;
+}
+
+.tx-6th{
+    color: var(--color-sixth);
+}
+
+video{
+    width:100vw;
+    height:100vh;
+}
+
+.tx-shadow{
+    text-shadow:4px 3px 3px rgba(0,0,0,0.8);
+}
+
+.tx-prime{
+    color: var(--color-prime);
+}
+
+.tx-2nd{
+    color:var(--color-second);
+}
+
+.tx-3rd{
+    color:var(--color-third);
+}
+
+.tx-4th{
+    color:var(--color-fourth);
+}
+
+.tx-5th{
+    color:var(--color-fifth);
+}
+
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+div.a{
+    text-indent:20px;
+}
+
+div.a h4{
+    padding-bottom:15px;
+}
+
+.m-top{
+    margin-top:40px;
+}
+
+div.b{
+    text-indent:20px;
+}
+
+nav ul li a{
+    color: #f4f4f4;
+}
+
+.nav ul li a:hover{
+    color: var(--color-prime);
+}
+
+.showcase h2{
+    font-family: 'Roboto Condensed', cursive;
+}
+.nav ul li a .nav-link{
+    color:turquoise;
+}
+
+.logo-top{
+    color: #f4f4f4;
+    text-shadow: 6px 5px 5px rgba(0,0,0,0.5);
+    font-weight:bold;
+    font-size:3rem;
+}
+
+.tx-light{
+    color:white;
+}
+
+.tx-dark{
+    color:black;
+}
+
+.pt-1{
+    padding-top: 30px;
+}
+
+.expand p{
+    font-size:1.2rem;
+}
+
+.margin-top-1{
+    margin-top: 30px;
+}
+
+.tx-read{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+.card{
+    height:150px;
+    color:white;
+    background-color:rgba(78, 22, 9, 0.8);
+    box-shadow: 4px 4px 3px rgba(255,255,255,0.2);
+}
+.card-abt{
+    color:white;
+    height:auto;
+    background-color:rgba(78, 22, 9, 0.8);
+    box-shadow: 4px 4px 3px rgba(255,255,255,0.2);
+}
+
+.card h3{
+    font-size:1.3rem;
+}
+
+.tx-primary{
+    color:#ff8c00;
+}
+
+.tx-sec{
+    color:#ff7417;
+}
+
+.tx-bold{
+    font-weight:bold;
+}
+
+.expand ul li{
+    font-size:2.2rem;
+    color:#fff;
+}
+
+.roadmap{
+    background-image: url('images/solid.jpg');
+}
+
+.forText h3{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.purpose{
+    background-image: url('images/mission.jpg');
+    background-repeat: no-repeat;
+}
+
+.vision{
+    background-image: url('images/vision4.jpg');
+    background-size:cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.padding-tb{
+    padding:8rem 0;
+}
+
+.padding-tb-3{
+    padding:12.5rem 0;
+}
+
+.bd-all{
+    border:5px solid var(--color-prime);
+    border-radius:10px;
+}
+
+.btntoken{
+    border:1px solid white;
+    color:white;
+    padding:10px;
+}
+
+.btntoken2{
+    border:1px solid white;
+    color:white;
+    padding:10px 30px;
+}
+
+.btntoken:hover, .btntoken2:hover{
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+    animation:scaleUpp 0.5s ease-in-out infinite;
+}
+
+.bg-art{
+    background-color:rgba(78, 22, 9, 0.8);
+}
+
+.padding-tb2{
+    padding:3rem 0;
+}
+
+h3 img{
+    height:20px;
+    width:20px;
+}
+
+.roadmap h3{
+    font-size: 1.8rem;
+}
+
+@keyframes spin{
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scaleUpp{
+    0%{
+        opacity:1;
+        color:var(--color-prime);
+    }
+    50%{
+        opacity:0.9;
+        color:var(--color-second);
+    }
+    100%{
+        opacity:0.8;
+        color:var(--color-third);
+    }
+}
+
+.scene
+{
+    position:absolute;
+    width:100%;
+    height: 50vh;
+    right:95%;
+    background: #000019;
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(90deg);
+    mix-blend-mode: blend-mode;
+}
+
+.scene .rocket-o{
+    position:absolute;
+    animation: animate 0.2s ease infinite;;
+}
+
+@keyframes animate
+{
+    0%,100%{
+        transform: translateY(-2px);
+    }
+    50%{
+        transform: translateY(2px);
+    }
+}
+
+.scene .rocket::before{
+    content: '';
+    position: absolute;
+    right:80%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 200px;
+    background: linear-gradient(#00d0ff,transparent);
+    filter: blur(20px);
+}
+
+.scene i{
+    position: absolute;
+    top: -250px;
+    background: rgba(255,255,255,0.5);
+    animation: animateStars linear infinite;
+}
+
+@keyframes animateStars{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(200vh);
+    }
+}
+
+/* SCROLLBAR DESIGN */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-prime); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-fourth); 
+  }
+/*
+  .overlay-div{
+    height:100%;
+    width: 87.9%;
+    position:absolute;
+    background-color:var(--color-prime);
+    opacity:.150;
+ } */
+
+ .bd-cz{
+     border-left: 15px solid var(--color-fourth);
+     border-top: 2px solid var(--color-fourth);
+     border-bottom: 2px solid var(--color-fourth);
+     border-right: 2px solid var(--color-fourth);
+     border-radius: 10px;
+ }
+
+ .howto ul li{
+     padding-bottom: 10px;
+     font-family: "Roboto Condensed", sans-serif;
+ }
+
+ .navbar-collapse.in{
+     display:block !important;
+ }
+
+ .czbinance .bd-cz{
+     width:32vw;
+     height:auto;
+ }
+
+ .top-title{
+    font-size:3.5rem;
+    text-shadow:4px 4px 3px rgba(0,0,0,0.8);
+ }
+
+ .coin-img{
+    width:80px;
+    height:80px;
+    margin-top:-10px;
+ }
+
+ .ml-show{
+     position:absolute;
+     top:20%;
+     right:2%;
+ }
+
+ .portal-text{
+    font-size:3rem;
+ }
+
+ @media(max-width: 600px){
+    *{
+        padding:0;
+        margin:0;
+        transform:none;
+    }
+
+    .centered{
+        width:100vw;
+        left:50;
+        margin-left:-80px;
+        height:auto;
+        text-align:center;
+        align-items:center;
+        align-self: center;
+        transform:none;
+    }
+
+    .centered .cyberspace{
+        font-size:2.2rem;
+    }
+
+    .centered h3{
+        font-size: 1.5rem;
+    }
+
+    .centered h5{
+        font-size: 1.5rem;
+    }
+
+    .moon{
+        bottom:50%;
+        width:250px;
+        height:250px;
+    }
+
+    .py-3{
+        padding:0;
+    }
+
+    .czbinance .bd-cz{
+        width:90vw;
+        height:auto;
+    }
+
+    .design-name{
+        left:20%;
+        right:20%;
+    }
+
+    .roadmap .q2, 
+    .roadmap .q3,
+     .roadmap .q4{
+        font-size: 7vw;
+    }
+
+    .donate{
+        padding:10px;
+    }
+}
+@media(max-width: 1100px){
+    *{
+        padding:0;
+        margin:0;
+        transform:none;
+    }
+
+    .centered{
+        width:100vw;
+        left:50;
+        margin-left:-80px;
+        height:auto;
+        text-align:center;
+        align-items:center;
+        align-self: center;
+        transform:none;
+    }
+
+    .centered .cyberspace{
+        font-size:2.2rem;
+    }
+
+    .centered h3{
+        font-size: 1.5rem;
+    }
+
+    .centered h5{
+        font-size: 1.5rem;
+    }
+
+    .moon{
+        bottom:50%;
+        width:250px;
+        height:250px;
+    }
+
+    .py-3{
+        padding:0;
+    }
+
+    .czbinance .bd-cz{
+        width:40vw;
+        height:auto;
+    }
+    .text h3{
+        font-size:2.5rem;
+        margin-top:70px;
+    }
+    .text h4{
+        font-size:2.5rem;
+    }
+    .text p{
+        font-size:2.2rem;
+    }
+
+    .top-title{
+        text-align:center;
+        font-size:4rem;
+    }
+
+    .text{
+        margin-left: 150px;
+    }
+
+    .coin-img{
+        width:100px;
+        height:100px;
+    }
+
+    .coin-img-lg{
+        width:300px;
+        height:300px;
+    }
+
+    .token h3{
+        font-size:1rem;
+    }
+
+    .roadmap .q2,
+    .roadmap .q3
+    .roadmap .q4{
+        font-size:2.2rem;
+    }
+
+    .tokenomics h3{
+        font-size: 2.5rem;
+    }
+
+    .tokenomics h1{
+        font-size:3rem;
+    }
+}
+@media(max-width: 800px){
+    *{
+        padding:0;
+        margin:0;
+        transform:none;
+    }
+
+    .centered{
+        width:100vw;
+        left:50;
+        margin-left:-80px;
+        height:auto;
+        text-align:center;
+        align-items:center;
+        align-self: center;
+        transform:none;
+    }
+
+    .centered .cyberspace{
+        font-size:2.2rem;
+    }
+
+    .centered h3{
+        font-size: 1.5rem;
+    }
+
+    .centered h5{
+        font-size: 1.5rem;
+    }
+
+    .moon{
+        bottom:50%;
+        width:250px;
+        height:250px;
+    }
+
+    .py-3{
+        padding:0;
+    }
+
+    .czbinance .bd-cz{
+        width:40vw;
+        height:auto;
+    }
+    .text h3{
+        font-size:2.5rem;
+        margin-top:70px;
+    }
+    .text h4{
+        font-size:1rem;
+    }
+    .text p{
+        font-size:1rem;
+    }
+
+    .top-title{
+        text-align:center;
+        font-size:2.5rem;
+    }
+
+    .ml-show{
+        margin-left:0;
+    }
+
+    .coin-img{
+        width:60px;
+        height:60px;
+    }
+
+    .coin-img-lg{
+        width:300px;
+        height:300px;
+    }
+
+    .token h3{
+        font-size:1rem;
+    }
+
+    .roadmap .q2,
+    .roadmap .q3,
+    .roadmap .q4{
+        font-size:2.2rem;
+    }
+
+    .roadmap h3{
+        font-size:1.2rem;
+    }
+
+    .tokenomics h3{
+        font-size:2rem;
+    }
+
+    .text h4{
+        font-size:2rem;
+    }
+
+    .text p{
+        font-size:1.8rem;
+    }
+}
+ @media(max-width: 500px){
+    *{
+        padding:0;
+        margin:0;
+        transform:none;
+    }
+
+    .centered{
+        width:100vw;
+        left:50;
+        margin-left:-80px;
+        height:auto;
+        text-align:center;
+        align-items:center;
+        align-self: center;
+        transform:none;
+    }
+
+    .centered .cyberspace{
+        font-size:2.2rem;
+    }
+
+    .centered h3{
+        font-size: 1.5rem;
+    }
+
+    .centered h5{
+        font-size: 1.5rem;
+    }
+
+    .moon{
+        bottom:50%;
+        width:250px;
+        height:250px;
+    }
+
+    .py-3{
+        padding:0;
+    }
+
+    .czbinance .bd-cz{
+        width:90vw;
+        height:auto;
+    }
+    .text h3{
+        font-size:1rem;
+        margin-top:70px;
+    }
+    .text h4{
+        font-size:1rem;
+    }
+    .text p{
+        font-size:1rem;
+    }
+
+    .top-title{
+        text-align:center;
+        font-size:2.5rem;
+    }
+
+    .ml-show{
+        margin-left:0;
+    }
+
+    .coin-img{
+        width:60px;
+        height:60px;
+    }
+
+    .coin-img-lg{
+        width:100px;
+        height:100px;   
+    }
+
+    .text{
+        margin-left:-30px;
+    }
+    
+    .showcase video{
+        width:100%;
+        position:absolute;
+        top:0%;
+        height:113vh;
+    }
+
+    .m-top img{
+        width:50vw;
+        height:20vh;
+    }
+
+    .roadmap .q2, .roadmap .q3, 
+    .roadmap .q4{
+        font-size: 10vw;
+    }
+
+    .donate h4{
+        font-size:0.9rem;
+    }
+
+    .donate h5{
+        font-size:0.7rem;
+    }
+
+    .donate .card-abt h1{
+        font-size:1.5rem;
+    }
+    .donate{
+        padding:5px;
+    }   
+}
+ @media(max-width: 400px){
+    *{
+        padding:0;
+        margin:auto;
+        transform:none;
+    }
+
+    .centered{
+        width:100vw;
+        left:50;
+        height:auto;
+        text-align:center;
+        align-items:center;
+        align-self: center;
+        transform:none;
+    }
+
+    .centered .cyberspace{
+        font-size:3rem;
+    }
+
+    .moon{
+        bottom:50%;
+        width:250px;
+        height:250px;
+    }
+
+    .py-3{
+        padding:0;
+    }
+
+    .video{
+        width:90vw;
+        height:auto;
+    }
+
+    .showcase{
+        padding-right:0;
+        justify-content: center;
+    }
+
+    .czbinance .bd-cz{
+        width:90vw;
+        height:auto;
+    }
+
+    .text h3{
+        font-size:1rem;
+        margin-top:70px;
+    }
+    .text h4{
+        font-size:1rem;
+    }
+    .text p{
+        font-size:1rem;
+    }
+
+    .top-title{
+        text-align:center;
+        font-size:2rem;
+    }
+
+    .ml-show{
+        margin-left:0;
+    }
+
+    .coin-img{
+        width:60px;
+        height:60px;
+    }
+
+    .coin-img-lg{
+        width:100px;
+        height:100px;
+
+    }
+
+    .text{
+        margin-left:-30px;
+    }
+
+    .showcase video{
+        width:100%;
+        position:absolute;
+        top:0%;
+        height:113vh;
+    }
+
+    .m-top img{
+        width:50vw;
+        height:20vh;
+    }
+
+    .roadmap .q2, .roadmap .q3, 
+    .roadmap .q4{
+        font-size: 10vw;
+    }
+
+    .text h3{
+        margin-top:80px;
+    }
+
+    .donate h4{
+        font-size:0.9rem;
+    }
+
+    .donate h5{
+        font-size:0.7rem;
+    }
+
+    .donate .card-abt h1{
+        font-size:1.5rem;
+    }
+    .donate{
+        padding:5px;
+    }
+}
+@media(max-width: 350px){
+    *{
+        padding:0;
+        margin:0;
+        transform:none;
+    }
+
+    .centered{
+        width:100vw;
+        left:50;
+        height:auto;
+        text-align:center;
+        align-items:center;
+        align-self: center;
+        transform:none;
+    }
+
+    .centered .cyberspace{
+        font-size:3rem;
+    }
+
+    .moon{
+        bottom:50%;
+        width:250px;
+        height:250px;
+    }
+
+    .py-3{
+        padding:0;
+    }
+
+    .czbinance .bd-cz{
+        width:90vw;
+        height:auto;
+    }
+
+    .text h3{
+        font-size:1rem;
+        margin-top:70px;
+    }
+    .text h4{
+        font-size:1rem;
+    }
+    .text p{
+        font-size:1rem;
+    }
+
+    .top-title{
+        text-align:center;
+        font-size:1.8rem;
+    }
+
+    .ml-show{
+        margin-left:0;
+    }
+
+    .coin-img{
+        width:60px;
+        height:60px;
+    }
+
+    .coin-img-lg{
+        width:90px;
+        height:90px;   
+    }
+
+    .showcase video{
+        width:100%;
+        position:absolute;
+        top:0%;
+        height:123vh;
+    }
+
+    .m-top img{
+        width:50vw;
+        height:20vh;
+    }
+
+    .roadmap .q2, .roadmap .q3, 
+    .roadmap .q4{
+        font-size: 10vw;
+    }
+
+    .tokenomics h1{
+        font-size: 2.5rem;
+    }
+    
+    .donate h4{
+        font-size:0.9rem;
+    }
+
+    .donate h5{
+        font-size:0.7rem;
+    }
+
+    .donate .card-abt h1{
+        font-size:1.5rem;
+    }
+    .donate{
+        padding:5px;
+    }
+}
+@media(max-width: 300px){
+    *{
+        padding:0;
+        margin:0;
+        transform:none;
+    }
+
+    .centered{
+        width:100vw;
+        left:50;
+        margin-left:-80px;
+        height:auto;
+        text-align:center;
+        align-items:center;
+        align-self: center;
+        transform:none;
+    }
+
+    .centered .cyberspace{
+        font-size:2.5rem;
+    }
+
+    .centered h3{
+        font-size: 1.7rem;
+    }
+
+    .centered h5{
+        font-size: 1.7rem;
+    }
+
+    .moon{
+        bottom:50%;
+        width:250px;
+        height:250px;
+    }
+
+    .py-3{
+        padding:0;
+    }
+
+    .czbinance .bd-cz{
+        width:90vw;
+        height:auto;
+    }
+
+    .text h3{
+        font-size:1rem;
+        margin-top:70px;
+    }
+    .text h4{
+        font-size:1rem;
+    }
+    .text p{
+        font-size:1rem;
+    }
+
+    .top-title{
+        text-align:center;
+        font-size:1.6rem;
+    }
+
+    .ml-show{
+        position:absolute;
+        left:20%;
+        right:20%;
+    }
+
+    .design-name{
+        padding:0;
+    }
+
+    .coin-img{
+        width:40px;
+        height:40px;
+    }
+
+    .coin-img-lg{
+        width:80px;
+        height:80px;
+        
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    .showcase video{
+        width:100%;
+        position:absolute;
+        top:0%;
+        height:113vh;
+    }
+
+    .m-top img{
+        width:50vw;
+        height:20vh;
+    }
+
+    .roadmap .q2, .roadmap .q3, 
+    .roadmap .q4{
+        font-size: 10vw;
+    }
+
+    .expand h1{
+        font-size: 1.2rem;
+    }
+
+    .expand h4{
+        font-size: 1.2rem;
+    }
+
+    .expand h5{
+        font-size: 1rem;
+    }
+
+    .card{
+        padding:0;
+        margin:0;
+    }
+
+    .expand{
+        width:100%;
+    }
+
+    .donate h4{
+        font-size:0.9rem;
+    }
+
+    .donate h5{
+        font-size:0.7rem;
+    }
+
+    .donate .card-abt h1{
+        font-size:1.5rem;
+    }
+    .donate{
+        padding:5px;
+    }
+}
